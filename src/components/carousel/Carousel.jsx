@@ -1,6 +1,7 @@
 import './Carousel.css';
 import ItemCarousel from './ItemCarousel';
 import CarouselControls from './CarouselControls';
+import CarouselIndicators from './CarouselIndicators';
 import { useState, useEffect, useRef } from 'react';
 
 export default function Carousel({ slides }) {
@@ -41,6 +42,11 @@ export default function Carousel({ slides }) {
     setCurrentSlide(index);
   };
 
+  const switchIndex = (index) => {
+    startSlideTimer();
+    setCurrentSlide(index);
+  };
+
   return (
     <div className='carousel'>
       <div
@@ -58,7 +64,12 @@ export default function Carousel({ slides }) {
         ))}
       </div>
 
-      <CarouselControls prev={prev} next={next} />
+      <CarouselIndicators
+        slides={slides}
+        currentIndex={currentSlide}
+        switchIndex={switchIndex}
+      />
+      {/* <CarouselControls prev={prev} next={next} /> */}
     </div>
   );
 }
