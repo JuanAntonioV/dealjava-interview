@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Navbar } from './partials';
+import { Navbar } from './components';
 import { Home } from './containers';
 
 export default function App() {

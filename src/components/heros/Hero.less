@@ -1,0 +1,54 @@
+.hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+    #bgHero{
+        position: absolute;
+        height: 100vh;
+        top: -50%;
+        z-index: -1;
+        width: 120%;
+    }
+
+    .navHero{
+        z-index: 10;
+    }
+
+    .menuCategory{
+        background-color: white;
+        margin: 30px 0 20px 0;
+        border-radius: 20px;
+        display: flex;
+        box-shadow: 0 5px 20px -5px black + 80;
+        
+        button{
+            padding: 15px 30px;
+            display: flex;
+            background-color: white;
+            flex-direction: column;
+            align-items: center;
+            
+            &:nth-child(1){
+                border-radius: 20px 0 0 20px;
+                padding: 15px 30px 15px 40px;
+            }
+            &:nth-child(6){
+                border-radius: 0 20px 20px 0;
+                padding: 15px 40px 15px 30px;
+            }
+
+            label{
+                margin-top: 10px;
+                font-family: 'Poppins',sans-serif;
+                cursor: pointer;
+            }
+        }
+
+        img{
+            height: 50px;
+        }
+    }
+}

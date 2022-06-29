@@ -3,6 +3,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1rem;
+  z-index: 100;
+  background-color: white;
   border-bottom: 1px solid #e6e6e6;
 }
 .header .logoNav {
@@ -76,5 +78,10 @@
   color: #70C100;
   padding: 15px 40px;
   border: 1px solid #70C100;
+  background-color: white;
   border-radius: 50px;
+}
+.header .btnMasuk:hover {
+  background-color: #70C100;
+  color: white;
 }
