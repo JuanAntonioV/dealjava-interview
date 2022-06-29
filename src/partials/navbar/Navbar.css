@@ -1,0 +1,80 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+.header .logoNav {
+  width: 150px;
+  margin-left: 100px;
+}
+.header .navBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 100px;
+  color: #70C100;
+}
+.header .navBar .searchBar {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  height: 50px;
+  border: 1px solid #d3d3d3;
+  padding: 0 0 0 20px;
+  border-radius: 50px;
+}
+.header .navBar .searchBar .iconLocation {
+  height: 25px;
+  margin: 2px 5px 0 0;
+}
+.header .navBar .searchBar .deviderNav {
+  border-left: 1px solid #d3d3d3;
+  height: 23px;
+  margin-left: 20px;
+}
+.header .navBar .searchBar .search {
+  width: 300px;
+  padding: 1rem;
+  border: none;
+  position: relative;
+}
+.header .navBar .searchBar .search:focus {
+  outline: none;
+}
+.header .navBar .searchBar .search::placeholder {
+  color: #8f8f8f;
+}
+.header .navBar .searchBar #kota {
+  border: none;
+  color: #70C100;
+  font-size: 14px;
+  font-weight: bold;
+}
+.header .navBar .searchBar #kota:focus {
+  outline: none;
+}
+.header .navBar .searchBar .btnSearch {
+  background-color: #70C100;
+  border-radius: 0 50px 50px 0;
+  width: 60px;
+  height: 50px;
+}
+.header .navBar .searchBar .btnSearch .iconSearch {
+  margin: 2.5px 3px 0 0;
+  text-align: center;
+  width: 25px;
+}
+.header .btnBantuan {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  margin-right: 40px;
+}
+.header .btnMasuk {
+  color: #70C100;
+  padding: 15px 40px;
+  border: 1px solid #70C100;
+  border-radius: 50px;
+}

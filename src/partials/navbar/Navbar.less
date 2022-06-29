@@ -1,0 +1,96 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #e6e6e6;
+
+    .logoNav{
+        width: 150px;
+        margin-left: 100px;
+    }
+
+    .navBar{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 100px;
+        color: #70C100;
+        
+        .searchBar{
+            display: flex;
+            align-items: center;
+            margin-right: 50px;
+            height: 50px;
+            border: 1px solid #d3d3d3;
+            padding: 0 0 0 20px;
+            border-radius: 50px;
+
+            .iconLocation{
+                height: 25px;
+                margin: 2px 5px 0 0;
+            }
+
+            .deviderNav{
+                border-left: 1px solid #d3d3d3;
+                height: 23px;
+                margin-left: 20px;
+
+            }
+
+            .search{
+                width: 300px;
+                padding: 1rem;
+                border:none;
+                position: relative;
+
+                &:focus{
+                    outline: none;
+                }
+
+                &::placeholder{
+                    color: #8f8f8f;
+                }
+            }
+
+            #kota{
+                border: none;
+                color: #70C100;
+
+                font-size: 14px;
+                font-weight: bold;
+
+                &:focus{
+                    outline: none;
+                }
+            }
+
+            .btnSearch{
+                background-color: #70C100;
+                border-radius: 0 50px 50px 0;
+                width: 60px;
+                height: 50px;
+
+                .iconSearch{
+                    margin: 2.5px 3px 0 0;
+                    text-align: center;
+                    width: 25px;
+                }
+            }
+        }
+    }
+
+    .btnBantuan{
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        margin-right: 40px;
+    }
+
+    .btnMasuk{
+        color: #70C100;
+        padding: 15px 40px;
+        border: 1px solid #70C100;
+        border-radius: 50px;
+    }
+}

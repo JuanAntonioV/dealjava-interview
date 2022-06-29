@@ -1,0 +1,6 @@
+@import url('./fonts/fonts.css');
+
+body {
+  font-family: 'Poppins', 'Montserrat', sans-serif;
+  color: black;
+}
