@@ -7,8 +7,8 @@ export default function NewDeal() {
 
   useEffect(() => {
     axios
-      .get('../../api/data.json')
-      .then((res) => setData(res.data.produk))
+      .get('http://localhost:3001/produk')
+      .then((res) => setData(res.data))
       .catch((err) => console.log(err));
   }, []);
 
