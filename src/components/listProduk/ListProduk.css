@@ -1,0 +1,172 @@
+.listProduk_container {
+  font-family: 'Poppins', sans-serif;
+  margin: 50px 0 0 0;
+}
+.listProduk_container h1 {
+  font-size: 22pt;
+  color: #4a4a4a;
+}
+.listProduk_container .subKategori_container {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+.listProduk_container .subKategori_container .sub_kategori {
+  background-color: white;
+  padding: 20px 0;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #dfdfdf;
+  box-shadow: 0 4px 5px 0 #e6e6e6;
+  font-family: 'Poppins', sans-serif;
+  width: 120px;
+}
+.listProduk_container .subKategori_container .sub_kategori img {
+  width: 50px;
+}
+.listProduk_container .subKategori_container .sub_kategori p {
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.listProduk_container .subKategori_container .activeSubKategori {
+  border: 1px solid #70C100;
+  color: #70C100;
+}
+.listProduk_container .subKategori_container .activeSubKategori p {
+  font-weight: 600;
+}
+.listProduk_container .produk_container {
+  background-color: #f7f7f7;
+  padding: 70px 94px 70px 94px;
+  width: 100%;
+}
+.listProduk_container .produk_container .filter_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.listProduk_container .produk_container .filter_container button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  border: 1px solid #c8c8c8;
+  border-radius: 10px;
+  padding: 8px 20px;
+  background-color: white;
+}
+.listProduk_container .produk_container .filter_container button:nth-child(1) {
+  margin-right: 15px;
+}
+.listProduk_container .produk_container .filter_container button:nth-child(2) {
+  margin-right: 15px;
+}
+.listProduk_container .produk_container .filter_container button:nth-child(3) {
+  margin-right: 15px;
+}
+.listProduk_container .produk_container .filter_container button:hover {
+  background-color: #70C100;
+  border: 1px solid #70C100;
+  color: white;
+}
+.listProduk_container .produk_container .filter_container .activeFilter {
+  background-color: #70C100;
+  border: 1px solid #70C100;
+  color: white;
+}
+.listProduk_container .produk_container .items_container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: 1fr;
+  grid-gap: 40px;
+  justify-content: start;
+  align-items: center;
+  margin: 55px 0 0 0;
+}
+.listProduk_container .produk_container .items_container .produkItems {
+  background-color: white;
+  box-shadow: 0px 10px 10px -4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  position: relative;
+  width: 360px;
+  height: 390px;
+}
+.listProduk_container .produk_container .items_container .produkItems .banner img {
+  width: 360px;
+  border-radius: 20px 20px 0 0;
+}
+.listProduk_container .produk_container .items_container .produkItems .diskon {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  padding: 5px 0 0 18px;
+  background-color: #70C100;
+  border-radius: 20px 0 40px 0;
+  width: 100px;
+  height: 50px;
+}
+.listProduk_container .produk_container .items_container .produkItems .harga_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.listProduk_container .produk_container .items_container .produkItems .harga_container .terjual {
+  display: flex;
+  align-items: center;
+}
+.listProduk_container .produk_container .items_container .produkItems .harga_container .terjual p {
+  font-size: 12px;
+}
+.listProduk_container .produk_container .items_container .produkItems .harga_container .terjual .iconLocationpopuler {
+  width: 15px;
+  margin: 0 3px 2px 0;
+}
+.listProduk_container .produk_container .items_container .produkItems .harga_container .harga {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.listProduk_container .produk_container .items_container .produkItems .harga_container .harga h1 {
+  font-size: 24px;
+  color: #70C100;
+}
+.listProduk_container .produk_container .items_container .produkItems .harga_container .harga p {
+  text-decoration: line-through;
+  margin: 5px 0 0 10px;
+  font-size: 14px;
+}
+.listProduk_container .produk_container .items_container .produkItems .footerItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.listProduk_container .produk_container .items_container .produkItems .footerItems .namaItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.listProduk_container .produk_container .items_container .produkItems .footerItems .namaItems h2 {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 20px 20px 0 0;
+}
+.listProduk_container .produk_container .items_container .produkItems .footerItems .namaItems p {
+  font-size: 13px;
+  margin-top: 10px;
+  text-align: left;
+}
+.listProduk_container .produk_container .items_container .produkItems .footerItems .logoVendor img {
+  height: 50px;
+}

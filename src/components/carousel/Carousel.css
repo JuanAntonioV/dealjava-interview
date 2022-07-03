@@ -15,6 +15,10 @@
   display: inline-block;
   width: 100%;
 }
+.carousel-item img {
+  width: 100%;
+  object-fit: contain;
+}
 .carousel-control {
   background-color: rgba(0, 0, 0, 0.5);
   border: none;

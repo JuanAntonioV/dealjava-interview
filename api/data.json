@@ -1,0 +1,393 @@
+{
+  "subKategori": [
+    {
+      "nama": "Semua",
+      "img": "../src/assets/icons/category/semua.svg"
+    },
+    {
+      "nama": "Hype & Trend",
+      "img": "../src/assets/icons/category/semua.svg"
+    },
+    {
+      "nama": "Diskon",
+      "img": "../src/assets/icons/category/hiburan.svg"
+    },
+    {
+      "nama": "Populer",
+      "img": "../src/assets/icons/category/semua.svg"
+    },
+    {
+      "nama": "Lokasi",
+      "img": "../src/assets/icons/location-icon.svg"
+    }
+  ],
+
+  "kategori": [
+    {
+      "id": 1,
+      "nama": "Makanan",
+      "img": "../src/assets/kategori/kategori_makanan.png"
+    },
+    {
+      "id": 2,
+      "nama": "Kecantikan",
+      "img": "../src/assets/kategori/kategori_kecantikan.png"
+    },
+    {
+      "id": 3,
+      "nama": "Relaksasi",
+      "img": "../src/assets/kategori/kategori_relaksasi.png"
+    },
+    {
+      "id": 4,
+      "nama": "Hiburan",
+      "img": "../src/assets/kategori/kategori_hiburan.png"
+    },
+    {
+      "id": 5,
+      "nama": "Jasa",
+      "img": "../src/assets/kategori/kategori_jasa.png"
+    }
+  ],
+
+  "produk": [
+    {
+      "nama": "Healthy Tasty Food! Lift Up Your Mood at Green Smoothie Factory",
+      "harga": 32000,
+      "diskon": 20,
+      "logo": "../src/assets/logoVendor.png",
+      "banner": "../src/assets/makanan.jpg",
+      "penjualan": 1300,
+      "lokasi": {
+        "jarak": 3.2,
+        "nama": "Jl. Sun Plaza No. 1, Medan"
+      },
+      "post": "2022-07-20",
+      "rating": 5,
+      "jenis": {
+        "nilai": 3,
+        "nama": "Pedas"
+      },
+      "waktuMakan": {
+        "nilai": 2,
+        "nama": "Siang"
+      },
+      "kategori": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "nama": "Fast Tasty Food! Lift Up Your Mood at Green Smoothie Factory",
+      "harga": 220000,
+      "diskon": 20,
+      "logo": "../src/assets/logoVendor.png",
+      "banner": "../src/assets/makanan.jpg",
+      "penjualan": 1822,
+      "lokasi": {
+        "jarak": 3.3,
+        "nama": "Jl. Sun Plaza No. 5, Medan"
+      },
+      "post": "2022-07-20",
+      "rating": 5,
+      "jenis": {
+        "nilai": 3,
+        "nama": "Pedas"
+      },
+      "waktuMakan": {
+        "nilai": 2,
+        "nama": "Siang"
+      },
+      "kategori": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "nama": "Try Out Maldives Bridal & Salon - Hair Treatment | Eyelash | Beauty Courses",
+      "harga": 300000,
+      "diskon": 19,
+      "logo": "../src/assets/logoVendor.png",
+      "banner": "../src/assets/relaksasi.jpg",
+      "penjualan": 300,
+      "lokasi": {
+        "jarak": 1,
+        "nama": "Jl. Baru No. 21, Medan"
+      },
+      "post": "2022-07-23",
+      "rating": 5,
+      "jenis": {
+        "nilai": 3,
+        "nama": "Lengkap"
+      },
+      "waktuMakan": {
+        "nilai": 1,
+        "nama": "Pagi"
+      },
+      "kategori": {
+        "id": 3,
+        "nama": "Relaksasi"
+      }
+    },
+    {
+      "nama": "[Instagramable Spot] All Time Favorite Santorini Vibes Cafe - Zircon Chill",
+      "harga": 48000,
+      "diskon": 40,
+      "logo": "../src/assets/logoVendor.png",
+      "banner": "../src/assets/relaksasi.jpg",
+      "penjualan": 1203,
+      "lokasi": {
+        "jarak": 2,
+        "nama": "Jl. Sarjana No. 3, Medan"
+      },
+      "post": "2022-07-23",
+      "rating": 5,
+      "jenis": {
+        "nilai": 1,
+        "nama": "Santai"
+      },
+      "waktuMakan": {
+        "nilai": 2,
+        "nama": "Siang"
+      },
+      "kategori": {
+        "id": 3,
+        "nama": "Relaksasi"
+      }
+    },
+    {
+      "nama": "[FLASH SALE] Try Out Everyone's Favorite! The Perfectly Marbled Steak by JJ Steak",
+      "harga": 120000,
+      "diskon": 60,
+      "logo": "../src/assets/logoVendor.png",
+      "banner": "../src/assets/makanan.jpg",
+      "penjualan": 203,
+      "lokasi": {
+        "jarak": 1.2,
+        "nama": "Jl. Beringin No. 219, Medan"
+      },
+      "post": "2022-07-28",
+      "rating": 4,
+      "jenis": {
+        "nilai": 1,
+        "nama": "Tidak Pedas"
+      },
+      "waktuMakan": {
+        "nilai": 1,
+        "nama": "Pagi"
+      },
+      "kategori": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "nama": "[Crazy Deals] It's Back! Most Mouthwatering Ribs in Medan (NON HALAL) - Backyard by The Naked Meat",
+      "harga": 20000,
+      "diskon": 75,
+      "logo": "../src/assets/logoVendor.png",
+      "banner": "../src/assets/makanan.jpg",
+      "penjualan": 2032,
+      "lokasi": {
+        "jarak": 4.2,
+        "nama": "Jl. Keliling No. 9, Medan"
+      },
+      "post": "2022-07-21",
+      "rating": 4,
+      "jenis": {
+        "nilai": 2,
+        "nama": "Sedang"
+      },
+      "waktuMakan": {
+        "nilai": 3,
+        "nama": "Malam"
+      },
+      "kategori": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "nama": "[FREE DELIVERY] It's Never Too Late to Start! Healthy Catering - YellowFit",
+      "harga": 60000,
+      "diskon": 40,
+      "logo": "../src/assets/logoVendor.png",
+      "banner": "../src/assets/makanan.jpg",
+      "penjualan": 2329,
+      "lokasi": {
+        "jarak": 2.8,
+        "nama": "Jl. Gatot Subroto No. 8, Medan"
+      },
+      "post": "2022-02-01",
+      "rating": 3.5,
+      "jenis": {
+        "nilai": 1,
+        "nama": "Tidak Pedas"
+      },
+      "waktuMakan": {
+        "nilai": 1,
+        "nama": "Pagi"
+      },
+      "kategori": {
+        "id": 1,
+        "nama": "Makanan"
+      }
+    },
+    {
+      "nama": "Find a Different Dining Experience at Level 11 Sirocco Rooftop Bistro",
+      "harga": 80000,
+      "diskon": 50,
+      "logo": "../src/assets/logoVendor.png",
+      "banner": "../src/assets/relaksasi.jpg",
+      "penjualan": 983,
+      "lokasi": {
+        "jarak": 1.7,
+        "nama": "Jl. Sunggal No. 22, Medan"
+      },
+      "post": "2022-07-01",
+      "rating": 4,
+      "jenis": {
+        "nilai": 2,
+        "nama": "Streching"
+      },
+      "waktuMakan": {
+        "nilai": 3,
+        "nama": "Malam"
+      },
+      "kategori": {
+        "id": 3,
+        "nama": "Relaksasi"
+      }
+    },
+    {
+      "nama": "[Singapore of Medan] Recommended Me Time Place at 'Nyenyak Massage X Maryjane Beauty Bar'",
+      "harga": 200000,
+      "diskon": 50,
+      "logo": "../src/assets/logoVendor.png",
+      "banner": "../src/assets/kecantikan.jpg",
+      "penjualan": 3892,
+      "lokasi": {
+        "jarak": 8.2,
+        "nama": "Jl. Hijau No. 11, Medan"
+      },
+      "post": "2022-07-20",
+      "rating": 5,
+      "jenis": {
+        "nilai": 3,
+        "nama": "Lengkap"
+      },
+      "waktuMakan": {
+        "nilai": 2,
+        "nama": "Siang"
+      },
+      "kategori": {
+        "id": 2,
+        "nama": "Kecantikan"
+      }
+    },
+    {
+      "nama": "All Time Favorit Treatment! Enjoy Your Relaxing Girls Time at Chey Beauty Square'",
+      "harga": 220000,
+      "diskon": 20,
+      "logo": "../src/assets/logoVendor.png",
+      "banner": "../src/assets/kecantikan.jpg",
+      "penjualan": 829,
+      "lokasi": {
+        "jarak": 5,
+        "nama": "Jl. Thamrin No. 21, Medan"
+      },
+      "post": "2022-07-20",
+      "rating": 5,
+      "jenis": {
+        "nilai": 1,
+        "nama": "Kurang Lengkap"
+      },
+      "waktuMakan": {
+        "nilai": 1,
+        "nama": "Pagi"
+      },
+      "kategori": {
+        "id": 2,
+        "nama": "Kecantikan"
+      }
+    },
+    {
+      "nama": "Oriskin Centre Point Is Back - Get The Best Version of You",
+      "harga": 130000,
+      "diskon": 60,
+      "logo": "../src/assets/logoVendor.png",
+      "banner": "../src/assets/kecantikan.jpg",
+      "penjualan": 1733,
+      "lokasi": {
+        "jarak": 0.4,
+        "nama": "Jl. Cinta Damai No. 21, Medan"
+      },
+      "post": "2022-07-01",
+      "rating": 5,
+      "jenis": {
+        "nilai": 2,
+        "nama": "Sedang"
+      },
+      "waktuMakan": {
+        "nilai": 3,
+        "nama": "Malam"
+      },
+      "kategori": {
+        "id": 2,
+        "nama": "Kecantikan"
+      }
+    },
+    {
+      "nama": "[ 13 CONCEPTS IN 1 STUDIO ] First in Medan! Photo Studio Rental by 360 Concepts.id",
+      "harga": 130000,
+      "diskon": 19,
+      "logo": "../src/assets/logoVendor.png",
+      "banner": "../src/assets/hiburan.jpg",
+      "penjualan": 2718,
+      "lokasi": {
+        "jarak": 0.8,
+        "nama": "Jl. Gaperta Ujung No. 73, Medan"
+      },
+      "post": "2022-03-01",
+      "rating": 3.7,
+      "jenis": {
+        "nilai": 1,
+        "nama": "Santai"
+      },
+      "waktuMakan": {
+        "nilai": 2,
+        "nama": "Siang"
+      },
+      "kategori": {
+        "id": 4,
+        "nama": "Hiburan"
+      }
+    },
+    {
+      "nama": "[Promo Antar & Jemput] Bandara Kualanamu (KNO) Medan Max 4 Orang dari 'Go Rental'",
+      "harga": 200000,
+      "diskon": 75,
+      "logo": "../src/assets/logoVendor.png",
+      "banner": "../src/assets/jasa.jpg",
+      "penjualan": 2718,
+      "lokasi": {
+        "jarak": 0.1,
+        "nama": "Jl. Pantai Timur No. 1, Medan"
+      },
+      "post": "2022-03-01",
+      "rating": 3.7,
+      "jenis": {
+        "nilai": 3,
+        "nama": "Segera"
+      },
+      "waktuMakan": {
+        "nilai": 2,
+        "nama": "Siang"
+      },
+      "kategori": {
+        "id": 5,
+        "nama": "Jasa"
+      }
+    }
+  ]
+}

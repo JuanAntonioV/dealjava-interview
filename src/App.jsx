@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components';
-import { Home } from './containers';
+import { Bantuan, Home, Kategori, Login } from './containers';
 
 export default function App() {
   return (
@@ -10,6 +10,9 @@ export default function App() {
         <div className='container'>
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='/kategori/:id' element={<Kategori />} />
+            <Route path='/bantuan' element={<Bantuan />} />
+            <Route path='/login' element={<Login />} />
           </Routes>
         </div>
       </BrowserRouter>

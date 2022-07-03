@@ -1,0 +1,40 @@
+.hero_container{
+    display:  grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: 1fr;
+    padding: 10px 0 20px 0;
+    height: 250px;
+    gap: 220px;
+
+    justify-content: center;
+    align-items: center;
+    background-color: #fff5e5;
+
+    .hero_kiri{
+        border: 1px solid black;
+        border-radius: 50px;
+        
+        #list_kategori{
+            color: #555555;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 00;
+            padding: 14px 20px;
+            margin-right: 20px;
+            background-color: transparent;
+            border: none;
+
+            &:focus{
+                outline: none;
+            }
+        }
+    }
+
+    .hero_kanan{
+        width: 200px;
+
+        img{
+            position: relative;
+            height: 180px;
+        }
+    }
+}

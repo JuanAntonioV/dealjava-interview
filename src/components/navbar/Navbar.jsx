@@ -8,9 +8,14 @@ export default class Navbar extends Component {
   render() {
     return (
       <header className='header'>
-        <a href=''>
-          <img className='logoNav' src={logo} alt='Logo' />
-        </a>
+        <img
+          className='logoNav'
+          src={logo}
+          alt='Logo'
+          onClick={() => {
+            location.href = '/';
+          }}
+        />
         <nav className='navBar'>
           <div className='searchBar'>
             <label htmlFor='kota'>
@@ -21,11 +26,11 @@ export default class Navbar extends Component {
               />
             </label>
             <select name='kota' id='kota'>
-              <option value='Medan'>Medan</option>
-              <option value='Medan'>Yogyakarta</option>
-              <option value='Medan'>Jakarta</option>
+              <option value='Medan' id='medan'>
+                Medan
+              </option>
             </select>
-            <hr className='deviderNav' />
+            <span className='deviderNav' />
             <input
               className='search'
               type='text'
@@ -39,7 +44,12 @@ export default class Navbar extends Component {
             <a href='/bantuan' className='btnBantuan'>
               Bantuan
             </a>
-            <button className='btnMasuk' onClick={() => {}}>
+            <button
+              className='btnMasuk'
+              onClick={() => {
+                location.href = '/login';
+              }}
+            >
               Masuk
             </button>
           </div>

@@ -1,0 +1,10 @@
+.login_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  height: 80vh;
+}
+.login_container h1 {
+  font-size: 22pt;
+}
