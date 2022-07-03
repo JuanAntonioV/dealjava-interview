@@ -10,35 +10,33 @@ const Kategori = () => {
   const [kategoriImg, setKategoriImg] = useState([]);
 
   useEffect(() => {
-    axios
-      .get('http://localhost:3001/produk')
-      .then((res) => {
-        // setSubKategori(res.data.subKategori);
-        setProduk(res.data);
-        // setKategori(res.data.kategori);
-        // setKategoriImg(res.data.kategori[0].img);
-      })
-      .catch((err) => console.log(err));
+    loadProduk();
+    loadKategori();
+    loadKategoriImg();
 
-    axios
-      .get('http://localhost:3001/kategori')
-      .then((resKategori) => {
-        // setSubKategori(res.data.subKategori);
-        setKategori(resKategori.data);
-        // setKategori(res.data.kategori);
-        // setKategoriImg(res.data.kategori[0].img);
-      })
-      .catch((err) => console.log(err));
+    // axios
+    //   .get('http://localhost:3001/produk')
+    //   .then((res) => {
+    //     // setSubKategori(res.data.subKategori);
+    //     setProduk(res.data);
+    //     // setKategori(res.data.kategori);
+    //     // setKategoriImg(res.data.kategori[0].img);
+    //   })
+    //   .catch((err) => console.log(err));
 
-    axios
-      .get('http://localhost:3001/kategori')
-      .then((res) => {
-        // setSubKategori(res.data.subKategori);
-        setKategoriImg(res.data[0].img);
-        // setKategori(res.data.kategori);
-        // setKategoriImg(res.data.kategori[0].img);
-      })
-      .catch((err) => console.log(err));
+    // axios
+    //   .get('http://localhost:3001/kategori')
+    //   .then((resKategori) => {
+    //     setKategori(resKategori.data);
+    //   })
+    //   .catch((err) => console.log(err));
+
+    // axios
+    //   .get('http://localhost:3001/kategori')
+    //   .then((res) => {
+    //     setKategoriImg(res.data[0].img);
+    //   })
+    //   .catch((err) => console.log(err));
 
     // axios
     //   .get('http://localhost:3001/subKategori')
@@ -50,6 +48,21 @@ const Kategori = () => {
     //   })
     //   .catch((err) => console.log(err));
   }, []);
+
+  const loadProduk = async () => {
+    const res = await axios.get('http://localhost:3001/produk');
+    setProduk(res.data);
+  };
+
+  const loadKategori = async () => {
+    const res = await axios.get('http://localhost:3001/kategori');
+    setKategori(res.data);
+  };
+
+  const loadKategoriImg = async () => {
+    const res = await axios.get('http://localhost:3001/kategori');
+    setKategoriImg(res.data[0].img);
+  };
 
   return (
     <main className='mainKategori_container'>

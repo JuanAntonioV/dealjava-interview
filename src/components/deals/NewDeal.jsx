@@ -6,11 +6,17 @@ export default function NewDeal() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios
-      .get('http://localhost:3001/produk')
-      .then((res) => setData(res.data))
-      .catch((err) => console.log(err));
+    // axios
+    //   .get('http://localhost:3001/produk')
+    //   .then((res) => setData(res.data))
+    //   .catch((err) => console.log(err));
+    loadProduk();
   }, []);
+
+  const loadProduk = async () => {
+    const res = await axios.get('http://localhost:3001/produk');
+    setData(res.data);
+  };
 
   const startDate = new Date(
     new Date().getFullYear(),
